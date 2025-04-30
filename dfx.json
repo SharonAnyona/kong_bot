@@ -1,0 +1,28 @@
+{
+  "dfx": "0.26.0-beta.1",
+  "canisters": {
+    "kongbot": {
+      "type": "rust",
+      "package": "kongbot",
+      "candid": "src/kongbot/kongbot.did",
+      "wasm": "src/kongbot/kongbot.wasm",
+      "gzip": true
+    }
+   
+  },
+  "networks": {
+    "ic": {
+      "providers": ["https://ic0.app"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "canister_ids": {
+    "kongbot": {
+      "ic": "nxqbz-fyaaa-aaaal-qsnfa-cai"
+    }
+  }
+}
